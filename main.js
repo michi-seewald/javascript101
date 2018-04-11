@@ -25,3 +25,35 @@ let isOver18 = true;
 console.log("über 18?", isOver18);
 let age = 17;
 console.log("age über 18", age > 18);
+
+let zahlenListe = [2, 11, 24, 33];
+console.log(zahlenListe);
+
+let namensListe = ["Jane", "John"];
+console.log(namensListe[1]);
+
+console.log(namensListe.length);
+let benutzer = {
+    vorname: "Jane",
+    nachname: "Doe",
+    alter: 28
+};
+console.log("Benutzer", benutzer.nachname);
+benutzer.bestzeit = 200;
+console.log(benutzer);
+benutzer["bestzeit ever"] = 100;
+console.log(benutzer);
+
+// let alter = prompt("Wie alt bist du?");
+// console.log("Du bist ", alter, " Jahre alt");
+// console.log("Über 18?", alter > 18);
+
+// if (alter > 18) {
+//     console.log ("Du darfst hinein...");
+// }   else {
+//     console.log ("noch nicht 18...");
+// }
+
+for(let i = 1; i <= 10; i++) {
+    console.log("Wert von i: ", i);
+}
